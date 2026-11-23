@@ -1,0 +1,1 @@
+log(name="test1", verdict=drop, severity=info, meter="meter1");

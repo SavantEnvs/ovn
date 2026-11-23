@@ -1,0 +1,1 @@
+vlan.pcp == 1 && (!(vlan.pcp == 2 && vlan.pcp == 3) && vlan.pcp == 4)

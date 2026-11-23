@@ -1,0 +1,1 @@
+reg1[0] = put_dhcp_opts(offerip="xyzzy");

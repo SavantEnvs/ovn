@@ -1,0 +1,1 @@
+reg0[0] = lookup_nd(inport, ip6.src, ip6.dst);

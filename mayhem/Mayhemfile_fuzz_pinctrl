@@ -1,0 +1,9 @@
+project: savantenvs/ovn
+target: fuzz-pinctrl
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz-pinctrl/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_pinctrl
+    libfuzzer: true
+    timeout: 5

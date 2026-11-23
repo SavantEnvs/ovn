@@ -1,0 +1,1 @@
+log(verdict=drop, severity=bad_severity);

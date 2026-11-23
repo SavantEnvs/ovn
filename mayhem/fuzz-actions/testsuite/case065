@@ -1,0 +1,1 @@
+get_nd(inport, eth.dst);

@@ -1,0 +1,12 @@
+# Build context for mayhem/Dockerfile: the full repo incl. .git (the grader uses the history),
+# minus local build artifacts.
+mayhem/_build/
+*.o
+*.lo
+*.a
+*.la
+*.so
+**/__pycache__/
+.DS_Store
+*.swp
+*~

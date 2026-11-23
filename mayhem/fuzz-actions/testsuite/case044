@@ -1,0 +1,1 @@
+ct_snat_in_czone(192.168.1.2, 1000-foo);

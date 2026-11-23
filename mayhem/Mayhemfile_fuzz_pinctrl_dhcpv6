@@ -1,0 +1,9 @@
+project: savantenvs/ovn
+target: fuzz-pinctrl-dhcpv6
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz-pinctrl-dhcpv6/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_pinctrl_dhcpv6
+    libfuzzer: true
+    timeout: 5

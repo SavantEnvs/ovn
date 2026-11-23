@@ -1,0 +1,1 @@
+ct_commit { ct_label[0..47] = 0x00000f040201; ct_label[48..63] = 0x0002; };

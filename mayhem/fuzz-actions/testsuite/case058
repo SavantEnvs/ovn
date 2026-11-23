@@ -1,0 +1,1 @@
+reg1[0] = put_dhcp_opts(x = 1.2.3.4, router = 10.0.0.1);

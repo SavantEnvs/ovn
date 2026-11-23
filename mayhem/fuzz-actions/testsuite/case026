@@ -1,0 +1,1 @@
+reg8[17] = 1; ct_commit { ct_mark.blocked = 1; };

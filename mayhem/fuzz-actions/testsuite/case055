@@ -1,0 +1,1 @@
+reg0[0] = lookup_arp_ip(inport, ip4.dst, eth.src;
